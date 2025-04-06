@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ghibli Style Image Generator</title>
+    <meta name="description" content="Privacy Policy for our Ghibli style image generator. Learn how we protect your data and privacy.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ghibli: {
+                            blue: '#4AA7DE',
+                            green: '#7BB677',
+                            yellow: '#F9DF74',
+                            pink: '#EFA5B8',
+                            cream: '#FFF5E1',
+                            brown: '#8E7F6D'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-ghibli-cream min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <span class="text-2xl font-display font-bold text-ghibli-blue">Ghibli<span class="text-ghibli-green">AI</span></span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html#features" class="text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">Features</a>
+                    <a href="index.html#how-it-works" class="text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">How It Works</a>
+                    <a href="index.html#faq" class="text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="index.html#testimonials" class="text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">Testimonials</a>
+                </nav>
+                
+                <!-- Try Now Button -->
+                <div class="hidden md:flex items-center">
+                    <a href="index.html" class="bg-ghibli-blue hover:bg-blue-600 text-white px-5 py-2 rounded-full transition-colors duration-300 font-medium">Try Now</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button type="button" class="md:hidden text-gray-700 hover:text-ghibli-blue focus:outline-none" id="mobile-menu-button">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="pt-2 pb-4 space-y-1">
+                    <a href="index.html#features" class="block py-2 text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">Features</a>
+                    <a href="index.html#how-it-works" class="block py-2 text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">How It Works</a>
+                    <a href="index.html#faq" class="block py-2 text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="index.html#testimonials" class="block py-2 text-gray-700 hover:text-ghibli-blue transition-colors duration-300 font-medium">Testimonials</a>
+                    <div class="pt-4">
+                        <a href="index.html" class="block text-center bg-ghibli-blue hover:bg-blue-600 text-white px-5 py-2 rounded-full transition-colors duration-300 font-medium mt-2">Try Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Privacy Policy Content -->
+    <section class="py-12 md:py-16 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+            <div class="mb-12 text-center">
+                <h1 class="text-3xl md:text-4xl font-display font-bold text-gray-800 mb-4">Privacy Policy</h1>
+                <p class="text-lg text-gray-600">Last updated: January 2023</p>
+            </div>
+            
+            <div class="prose prose-lg max-w-none">
+                <div class="mb-10 bg-ghibli-cream p-8 rounded-xl shadow-sm border-l-4 border-ghibli-blue animate-fadeIn">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Our Commitment to Your Privacy</h2>
+                    <p class="text-gray-700">At GhibliAI, we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Ghibli Style Image Generator service.</p>
+                </div>
+                
+                <div class="mb-10">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Information We Collect</h2>
+                    <p class="text-gray-700 mb-4">We collect the following types of information:</p>
+                    
+                    <div class="ml-6 space-y-4">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-10 h-10 bg-ghibli-green rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-image text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-2">User Content</h3>
+                                <p class="text-gray-700">We temporarily process the images you upload and the text prompts you provide to generate Ghibli-style images. We do not permanently store your content.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-10 h-10 bg-ghibli-yellow rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-globe text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-2">Usage Data</h3>
+                                <p class="text-gray-700">We collect basic information about how you interact with our service, including your device information, for the purpose of improving our service.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-10">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">How We Use Your Information</h2>
+                    <p class="text-gray-700 mb-4">We use your information for the following purposes:</p>
+                    
+                    <ul class="list-disc ml-6 space-y-2 text-gray-700">
+                        <li>To provide and maintain our free service</li>
+                        <li>To respond to your inquiries and provide customer support</li>
+                        <li>To improve our service based on your feedback and usage patterns</li>
+                        <li>To protect against fraudulent or illegal activity</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-10 bg-ghibli-cream p-8 rounded-xl shadow-sm">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Data Security</h2>
+                    <p class="text-gray-700 mb-4">We implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. These measures include:</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-lock text-ghibli-blue mr-3 text-xl"></i>
+                                <h3 class="font-bold text-gray-800">Encryption</h3>
+                            </div>
+                            <p class="text-gray-700">All data transmitted between your device and our servers is encrypted using SSL technology.</p>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-shield-alt text-ghibli-green mr-3 text-xl"></i>
+                                <h3 class="font-bold text-gray-800">Access Controls</h3>
+                            </div>
+                            <p class="text-gray-700">We restrict access to your personal information to employees who need it to provide services to you.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-10">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Sharing Your Information</h2>
+                    <p class="text-gray-700 mb-4">We do not sell, trade, or rent your personal information to third parties. We may share your information in the following circumstances:</p>
+                    
+                    <ul class="list-disc ml-6 space-y-2 text-gray-700">
+                        <li>With service providers who help us operate our platform</li>
+                        <li>To comply with legal obligations</li>
+                        <li>To protect our rights, privacy, safety, or property</li>
+                        <li>In connection with a business transfer, such as a merger or acquisition</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-10">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Your Rights</h2>
+                    <p class="text-gray-700 mb-4">Depending on your location, you may have certain rights regarding your personal information, including:</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                        <div class="bg-ghibli-cream p-4 rounded-lg shadow-sm">
+                            <h3 class="font-bold text-gray-800 mb-2">Access and Portability</h3>
+                            <p class="text-gray-700">You can request a copy of your personal information in a structured, commonly used format.</p>
+                        </div>
+                        
+                        <div class="bg-ghibli-cream p-4 rounded-lg shadow-sm">
+                            <h3 class="font-bold text-gray-800 mb-2">Correction</h3>
+                            <p class="text-gray-700">You can request that we correct inaccurate or incomplete information about you.</p>
+                        </div>
+                        
+                        <div class="bg-ghibli-cream p-4 rounded-lg shadow-sm">
+                            <h3 class="font-bold text-gray-800 mb-2">Deletion</h3>
+                            <p class="text-gray-700">You can request that we delete your personal information in certain circumstances.</p>
+                        </div>
+                        
+                        <div class="bg-ghibli-cream p-4 rounded-lg shadow-sm">
+                            <h3 class="font-bold text-gray-800 mb-2">Objection</h3>
+                            <p class="text-gray-700">You can object to our processing of your personal information in certain circumstances.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-10">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Cookies and Similar Technologies</h2>
+                    <p class="text-gray-700 mb-4">We use minimal cookies that are necessary for the functioning of our service. These cookies do not track your activity for marketing purposes.</p>
+                </div>
+                
+                <div class="mb-10">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Children's Privacy</h2>
+                    <p class="text-gray-700 mb-4">Our service is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you become aware that a child has provided us with personal information, please contact us.</p>
+                </div>
+                
+                <div class="mb-10">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Changes to This Privacy Policy</h2>
+                    <p class="text-gray-700 mb-4">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+                </div>
+                
+                <div class="mb-10 bg-ghibli-cream p-8 rounded-xl shadow-sm border-l-4 border-ghibli-green">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Contact Us</h2>
+                    <p class="text-gray-700 mb-4">If you have any questions about this Privacy Policy, please contact us:</p>
+                    
+                    <div class="flex items-center space-x-2 text-gray-700">
+                        <i class="fas fa-envelope text-ghibli-green"></i>
+                        <span>niemingxing1988@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-1">
+                    <a href="index.html" class="flex items-center mb-4">
+                        <span class="text-2xl font-display font-bold text-white">Ghibli<span class="text-ghibli-green">AI</span></span>
+                    </a>
+                    <p class="text-gray-400 mb-4">Transform your ideas into magical Ghibli-style artwork with our AI-powered image generator.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-pinterest text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="index.html#how-it-works" class="text-gray-400 hover:text-white transition-colors duration-300">How It Works</a></li>
+                        <li><a href="index.html#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="index.html#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal & Contact -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2 mb-6">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                    
+                    <h3 class="text-lg font-bold mb-4">Contact Us</h3>
+                    <div class="flex items-center space-x-2 text-gray-400">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:niemingxing1988@gmail.com" class="hover:text-white transition-colors duration-300">niemingxing1988@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 flex justify-center items-center">
+                <p class="text-gray-400">© 2025 GhibliAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
