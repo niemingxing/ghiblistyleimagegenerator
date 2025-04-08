@@ -1,0 +1,21 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- GhibliAI Logo -->
+  <style>
+    .logo-text { font-family: 'Montserrat', sans-serif; font-weight: bold; }
+    .ghibli-blue { fill: #4AA7DE; }
+    .ghibli-green { fill: #7BB677; }
+  </style>
+  
+  <!-- Decorative Elements -->
+  <path d="M30 15c-8.284 0-15 6.716-15 15s6.716 15 15 15c1.5 0 2.938-0.256 4.299-0.691 1.7-0.544 3.258-1.365 4.623-2.408" stroke="#F9DF74" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small Totoro-inspired shape -->
+  <path d="M20 25c0-2.761 2.239-5 5-5s5 2.239 5 5-2.239 5-5 5-5-2.239-5-5z" class="ghibli-cream" fill="#FFF5E1" opacity="0.6"/>
+  
+  <!-- Leaf accent -->
+  <path d="M45 20c0 0 5 5 0 10s-10 0-10 0" stroke="#7BB677" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Logo Text -->
+  <text x="60" y="38" class="logo-text ghibli-blue" font-size="24">Ghibli</text>
+  <text x="130" y="38" class="logo-text ghibli-green" font-size="24">AI</text>
+</svg>

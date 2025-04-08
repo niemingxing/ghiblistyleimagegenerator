@@ -1,0 +1,41 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ghibli-inspired pattern with soft clouds and nature elements -->
+  <defs>
+    <!-- Cloud shape -->
+    <path id="cloud" d="M25,20 Q30,15 35,20 Q40,10 50,15 Q55,5 65,15 Q70,10 75,20 Q85,20 85,30 Q85,40 75,40 L35,40 Q25,40 25,30 Q25,25 25,20 Z" />
+    
+    <!-- Leaf shape -->
+    <path id="leaf" d="M10,0 Q15,5 10,10 Q5,15 0,10 Q-5,5 0,0 Q5,-5 10,0 Z" />
+    
+    <!-- Totoro-inspired shape -->
+    <circle id="totoro" cx="0" cy="0" r="5" />
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100" height="100" fill="#FFF5E1" opacity="0.6" />
+  
+  <!-- Pattern Elements with Ghibli Colors -->
+  <g opacity="0.1">
+    <!-- Clouds -->
+    <use href="#cloud" x="-15" y="10" fill="#4AA7DE" transform="scale(0.3)" />
+    <use href="#cloud" x="50" y="60" fill="#4AA7DE" transform="scale(0.2)" />
+    
+    <!-- Leaves -->
+    <use href="#leaf" x="20" y="30" fill="#7BB677" transform="scale(0.8)" />
+    <use href="#leaf" x="70" y="20" fill="#7BB677" transform="scale(0.6)" />
+    <use href="#leaf" x="40" y="80" fill="#7BB677" transform="scale(0.7)" />
+    
+    <!-- Totoro-inspired circles -->
+    <use href="#totoro" x="15" y="15" fill="#8E7F6D" />
+    <use href="#totoro" x="85" y="35" fill="#8E7F6D" />
+    <use href="#totoro" x="35" y="65" fill="#8E7F6D" />
+    <use href="#totoro" x="65" y="85" fill="#8E7F6D" />
+    
+    <!-- Dust sprites inspired dots -->
+    <circle cx="25" cy="45" r="2" fill="#8E7F6D" />
+    <circle cx="75" cy="15" r="1.5" fill="#8E7F6D" />
+    <circle cx="55" cy="75" r="2" fill="#8E7F6D" />
+    <circle cx="10" cy="85" r="1.5" fill="#8E7F6D" />
+    <circle cx="90" cy="65" r="2" fill="#8E7F6D" />
+  </g>
+</svg>
