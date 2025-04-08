@@ -19,14 +19,14 @@ GhibliAI利用先进的人工智能技术，让用户轻松创建具有吉卜力
 
 - HTML5, CSS3, JavaScript
 - Tailwind CSS
-- 响应式设计，适配移动和桌面设备
+- 响应式设计，适配移动和PC浏览器
 - 集成HuggingFace Spaces模型
 
 ## 快速开始
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/ghiblistyleimagegenerator.git
+git clone https://github.com/niemingxing/ghiblistyleimagegenerator.git
 cd ghiblistyleimagegenerator
 ```
 
